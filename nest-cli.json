@@ -1,0 +1,12 @@
+{
+    "collection": "@nestjs/schematics",
+    "compilerOptions": {
+        "webpack": true,
+        "tsConfigPath": "apps/user-service/tsconfig.app.json"
+    },
+    "generateOptions": {
+        "spec": {
+          "controller": false
+        }
+    }
+}
